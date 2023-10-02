@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/001Smiling/search-vaca/static/css/main.e20c777b.css",
-    "main.js": "/001Smiling/search-vaca/static/js/main.32a4c2df.js",
-    "static/media/Roboto-Medium.woff": "/001Smiling/search-vaca/static/media/Roboto-Medium.e624b10d53c919bd7496.woff",
-    "static/media/Roboto-Bold.woff": "/001Smiling/search-vaca/static/media/Roboto-Bold.9fa4a8113c081e9b3138.woff",
-    "static/media/Roboto-Regular.woff": "/001Smiling/search-vaca/static/media/Roboto-Regular.0944be1093c62cedb919.woff",
-    "static/media/Roboto-Medium.woff2": "/001Smiling/search-vaca/static/media/Roboto-Medium.57b8a81c7519e4d6b555.woff2",
-    "static/media/Roboto-Bold.woff2": "/001Smiling/search-vaca/static/media/Roboto-Bold.b21da07c934a28b2fef3.woff2",
-    "static/media/Roboto-Regular.woff2": "/001Smiling/search-vaca/static/media/Roboto-Regular.9d43b86421e004e704b9.woff2",
-    "index.html": "/001Smiling/search-vaca/index.html",
-    "main.e20c777b.css.map": "/001Smiling/search-vaca/static/css/main.e20c777b.css.map",
-    "main.32a4c2df.js.map": "/001Smiling/search-vaca/static/js/main.32a4c2df.js.map"
+    "main.css": "/search-vaca/static/css/main.0e2d3cd7.css",
+    "main.js": "/search-vaca/static/js/main.32a4c2df.js",
+    "static/media/Roboto-Medium.woff": "/search-vaca/static/media/Roboto-Medium.e624b10d53c919bd7496.woff",
+    "static/media/Roboto-Bold.woff": "/search-vaca/static/media/Roboto-Bold.9fa4a8113c081e9b3138.woff",
+    "static/media/Roboto-Regular.woff": "/search-vaca/static/media/Roboto-Regular.0944be1093c62cedb919.woff",
+    "static/media/Roboto-Medium.woff2": "/search-vaca/static/media/Roboto-Medium.57b8a81c7519e4d6b555.woff2",
+    "static/media/Roboto-Bold.woff2": "/search-vaca/static/media/Roboto-Bold.b21da07c934a28b2fef3.woff2",
+    "static/media/Roboto-Regular.woff2": "/search-vaca/static/media/Roboto-Regular.9d43b86421e004e704b9.woff2",
+    "index.html": "/search-vaca/index.html",
+    "main.0e2d3cd7.css.map": "/search-vaca/static/css/main.0e2d3cd7.css.map",
+    "main.32a4c2df.js.map": "/search-vaca/static/js/main.32a4c2df.js.map"
   },
   "entrypoints": [
-    "static/css/main.e20c777b.css",
+    "static/css/main.0e2d3cd7.css",
     "static/js/main.32a4c2df.js"
   ]
 }
