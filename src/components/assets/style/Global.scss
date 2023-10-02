@@ -1,0 +1,64 @@
+*,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+$maxWidth: 1440;
+@mixin adaptiv-font($pcSize, $mobSize){
+    $addSize: $pcSize - $mobSize;
+    $maxWidth:$maxWidth - 320;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+@font-face {
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: local(''),
+          url('../fonts/Roboto-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/Roboto-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      src: local(''),
+           url('../fonts/Roboto-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../fonts/Roboto-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      src: local(''),
+           url('../fonts/Roboto-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+           url('../fonts/Roboto-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+h2{
+    @include adaptiv-font(24,20);
+    line-height: 125%;
+}
+.global-btn{
+    color: white;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+.blue-button{
+    width: 113px;
+    background: rgba(13, 122, 217, 1);
+}
+@media (max-width: 473px){
+    .blue-button{
+        width: 288px;
+    }
+}
