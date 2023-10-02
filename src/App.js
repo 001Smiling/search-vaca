@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import './components/assets/style/Base.scss';
 import MainblockVaca from "./components/MainblockVaca";
 import Form from "./components/Form"
