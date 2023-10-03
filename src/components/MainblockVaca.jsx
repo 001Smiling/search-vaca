@@ -60,7 +60,7 @@ function MainblockVaca() {
                     <div onClick={toggleDropdown}>
                         {showDropdown ? (
                             <div className='main-search__cont'>
-                                <p>Form</p>
+                                <p className='main-search__cont-title'>Form</p>
                                 <div className='main-search__title'>
                                     <input className="main-search__input" type="text" placeholder="Not selected" readOnly value={selectedValue} />
                                     <svg className='main-search__str' viewBox="0 0 24 24">

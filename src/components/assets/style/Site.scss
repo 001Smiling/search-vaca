@@ -14,7 +14,8 @@
     max-width: 1360px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 32px;
+    margin-top: 13px;
+    margin-bottom: 48px;
 }
 .main-search{
     position: relative;
@@ -108,7 +109,7 @@ svg{
 }
 .main-vacancies{
     box-shadow: 0px -6px 9px 0px rgba(30, 30, 30, 0.1), 0px 6px 9px rgba(30, 30, 30, 0.1);
-    margin: 48px 0px 32px 0px;
+    margin: 0px 0px 32px 0px;
 }
 .main-vacancies__container{
     padding: 40px 40px 32px 40px;
@@ -403,8 +404,15 @@ svg{
     }
 }
 @media (max-width: 640px){
+    .main-block__search{
+        margin-top: 5px;
+        margin-bottom: 32px;
+    }
     .main-vacancies__container{
         padding: 20px 20px 24px 20px;
+    }
+    .main-vacancies{
+        margin: 0px 0px 24px 0px;
     }
     .vacancies-head{
         flex-direction: column;
