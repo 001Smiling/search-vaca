@@ -57,7 +57,7 @@ function MainblockVaca() {
 
             <div className='main-block__search'>
                 <div className='main-search'>
-                    <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={toggleDropdown}>
+                    <div onClick={toggleDropdown}>
                         {showDropdown ? (
                             <div className='main-search__cont'>
                                 <p>Form</p>
