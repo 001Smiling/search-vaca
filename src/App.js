@@ -21,7 +21,7 @@ function App() {
         </div>
         <div className='footer-container__block2'>
             <p className='footer-container__block1-text3'>322A, 2nd Floor, Zelenograd, Moscow, Russia</p>
-            <a className='footer-container__block1-text4'>Directions</a>
+            <p className='footer-container__block1-text4'>Directions</p>
         </div>
     </div>
   </footer>
