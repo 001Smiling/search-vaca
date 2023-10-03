@@ -60,6 +60,11 @@ h2{
         background: rgba(23, 80, 152, 1);
     }
 }
+@media (max-width: 1440px){
+    h2{
+        font-size: 24px;
+    }
+}
 @media (max-width: 473px){
     .blue-button{
         width: 288px;
