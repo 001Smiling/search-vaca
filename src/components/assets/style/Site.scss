@@ -295,6 +295,7 @@ svg{
 }
 .form-container__bottom-a{
     color: $blue-color;
+    cursor: pointer;
     :hover{
         color: rgba(23, 80, 152, 1);
     }
@@ -331,6 +332,21 @@ svg{
         color: white;
         cursor: pointer;
         border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+}
+@media (min-width: 1440px){
+    .vacancies-data__point,
+    .main-vacancies__description-text,
+    .form-container__bottom-text{
+        font-size: 16px;
+    }
+    .main-form__head{
+        .main-form__head-title{
+            font-size: 34px
+        }
+        .main-form__head-text{
+            font-size: 18px;
+        }
     }
 }
 @media (max-width: 1151px){
