@@ -296,7 +296,7 @@ svg{
 .form-container__bottom-a{
     color: $blue-color;
     cursor: pointer;
-    :hover{
+    &:hover{
         color: rgba(23, 80, 152, 1);
     }
 }
