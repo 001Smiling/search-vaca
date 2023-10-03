@@ -77,7 +77,7 @@ const Form = () => {
                 <div className='form-container__bottom'>
                     <button className='form-container__bottom-btn global-btn blue-button' type="submit">Send</button>
                     <p className='form-container__bottom-text'>By clicking "Send" you confirm your consent to the
-                        <p className='form-container__bottom-a'> processing of personal data</p>
+                        <span className='form-container__bottom-a'> processing of personal data</span>
                     </p>
                 </div>
 
